@@ -174,4 +174,4 @@ uv run jupyter lab --ip 0.0.0.0 --port 8888 --no-browser
 ## Contribute
 
 Issues and pull requests are welcome on the
-[GitHub repository](https://github.com/lakinduboteju/langchain-pymupdf4llm).
+[GitHub repository](https://github.com/pymupdf/langchain-pymupdf4llm).
