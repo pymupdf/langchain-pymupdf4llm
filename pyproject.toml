@@ -4,12 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "langchain-pymupdf4llm"
-version = "0.5.1"
+version = "1.27.2"
 description = "An integration package connecting PyMuPDF4LLM to LangChain"
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [
-  { name = "Lakindu Boteju", email = "lakinduboteju@gmail.com" },
+  { name = "Artifex Software, Inc.", email = "info@artifex.com" },
 ]
 requires-python = ">=3.10.0,<4.0.0"
 classifiers = [
@@ -28,7 +28,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/lakinduboteju/langchain-pymupdf4llm"
+Repository = "https://github.com/pymupdf/langchain-pymupdf4llm"
 
 [dependency-groups]
 dev = [

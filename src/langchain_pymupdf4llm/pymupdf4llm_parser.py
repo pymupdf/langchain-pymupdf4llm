@@ -259,6 +259,8 @@ class PyMuPDF4LLMParser(BaseBlobParser):
             raise ValueError(message)
 
         with TemporaryDirectory() as temp_dir:
+
+            print(f"Using temporary directory for images: {temp_dir}")
             pymupdf4llm_params["write_images"] = True
             pymupdf4llm_params["image_path"] = temp_dir
             page_content_md = _to_markdown(pymupdf4llm)(
